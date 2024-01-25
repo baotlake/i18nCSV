@@ -71,7 +71,7 @@ python ./i18ncsv.py ./i18n ./i18n.csv -w -o
 python ./i18ncsv.py ./i18n https://docs.google.com/spreadsheets/d/xxxxxxxxxxx/ -w -o
 ```
 
-When updating i18n, you can automatically create corresponding files by specifying the directory structure through --msg-name, where <code> represents the code for the respective language.
+When updating i18n, you can automatically create corresponding files by specifying the directory structure through `--msg-name`, where `<code>` represents the code for the respective language.
 
 ```shell
 python ./i18ncsv.py ./i18n ./i18n.csv --msg-name '<code>.json'

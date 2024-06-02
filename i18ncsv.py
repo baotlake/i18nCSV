@@ -87,7 +87,7 @@ def cli(
 
         if current_hash == last_hash:
             continue
-
+        
         last_hash = current_hash
         for code in data:
             filename = locales_data["msg_name"].replace("<code>", code)
@@ -199,7 +199,13 @@ def parse_translated(translated: str, sheet_name="", range="", index_col=0):
             f'https://docs.google.com/spreadsheets/d/{sheets_id}/gviz/tq?{"&".join(qs)}'
         )
 
-        df = pd.read_csv(StringIO(res.text), index_col=index_col).fillna("")
+        df = pd.read_csv(
+            StringIO(res.text),
+            index_col=index_col,
+            skip_blank_lines=True,
+            usecols=lambda x: x[:8] != "Unnamed:" and x[:2] != "# ",
+        ).fillna("")
+        print(df)
         return denormalize(df.to_dict(orient="dict")), hash(res.text)
 
     csv_url_match = re.match(r"https?://.+\.csv(?![^?#])", translated)

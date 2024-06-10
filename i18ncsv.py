@@ -90,6 +90,8 @@ def cli(
         
         last_hash = current_hash
         for code in data:
+            if code[:8] == "Unnamed:" or code[:2] == "# ":
+                continue
             filename = locales_data["msg_name"].replace("<code>", code)
             msg_path = os.path.join(i18n_dir, filename)
             update_msg(msg_path, data[code], overwrite=overwrite)
@@ -203,7 +205,6 @@ def parse_translated(translated: str, sheet_name="", range="", index_col=0):
             StringIO(res.text),
             index_col=index_col,
             skip_blank_lines=True,
-            usecols=lambda x: x[:8] != "Unnamed:" and x[:2] != "# ",
         ).fillna("")
         print(df)
         return denormalize(df.to_dict(orient="dict")), hash(res.text)

@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Hallo wereld",
+    "description": "Extensienaam"
+  },
+  "ext_description": {
+    "message": "Een supereenvoudig te gebruiken platformonafhankelijke i18n-tool voor het efficiënt beheren van uw i18n-bestanden in een tabel-UI.",
+    "description": "Extensiebeschrijving"
+  }
+}

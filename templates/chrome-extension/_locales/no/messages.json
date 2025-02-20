@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Hei verden",
+    "description": "Navn på utvidelse"
+  },
+  "ext_description": {
+    "message": "Et superenkelt å bruke i18n-verktøy på tvers av plattformer for effektiv administrasjon av i18n-filene dine i et tabellgrensesnitt.",
+    "description": "Utvidelsesbeskrivelse"
+  }
+}

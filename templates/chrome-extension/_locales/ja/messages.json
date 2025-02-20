@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "こんにちは世界",
+    "description": "拡張機能名"
+  },
+  "ext_description": {
+    "message": "テーブル UI で i18n ファイルを効率的に管理するための、非常に使いやすいクロスプラットフォーム i18n ツール。",
+    "description": "拡張子の説明"
+  }
+}

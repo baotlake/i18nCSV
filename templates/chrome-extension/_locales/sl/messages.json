@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Pozdravljen svet",
+    "description": "Ime razširitve"
+  },
+  "ext_description": {
+    "message": "Izjemno preprosto orodje za več platform i18n za učinkovito upravljanje datotek i18n v uporabniškem vmesniku tabele.",
+    "description": "Opis razširitve"
+  }
+}

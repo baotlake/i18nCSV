@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Ciao mondo",
+    "description": "Nome dell'estensione"
+  },
+  "ext_description": {
+    "message": "Uno strumento i18n multipiattaforma super facile da usare per gestire in modo efficiente i file i18n in un'interfaccia utente tabella.",
+    "description": "Descrizione dell'estensione"
+  }
+}

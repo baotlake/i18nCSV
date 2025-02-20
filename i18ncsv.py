@@ -87,12 +87,17 @@ def cli(
 
         if current_hash == last_hash:
             continue
-
+        
         last_hash = current_hash
         for code in data:
+            if code[:8] == "Unnamed:" or code[:2] == "# ":
+                continue
             filename = locales_data["msg_name"].replace("<code>", code)
             msg_path = os.path.join(i18n_dir, filename)
-            update_msg(msg_path, data[code], overwrite=overwrite)
+            if filename == locales_data["msg_name"]:
+                update_msg(msg_path, {code:data[code]}, overwrite=overwrite)
+            else:
+                update_msg(msg_path, data[code], overwrite=overwrite)
 
         print(f'{time.strftime("%H:%M:%S")} UPDATED hash={current_hash}')
 
@@ -154,6 +159,8 @@ def denormalize(value: dict):
     for code, d in value.items():
         data[code] = {}
         for k, v in d.items():
+            if k.startswith("# "):
+                continue
             keys = k.split(".")
             current = data[code]
             for i, key in enumerate(keys):
@@ -199,7 +206,12 @@ def parse_translated(translated: str, sheet_name="", range="", index_col=0):
             f'https://docs.google.com/spreadsheets/d/{sheets_id}/gviz/tq?{"&".join(qs)}'
         )
 
-        df = pd.read_csv(StringIO(res.text), index_col=index_col).fillna("")
+        df = pd.read_csv(
+            StringIO(res.text),
+            index_col=index_col,
+            skip_blank_lines=True,
+        ).fillna("")
+        print(df)
         return denormalize(df.to_dict(orient="dict")), hash(res.text)
 
     csv_url_match = re.match(r"https?://.+\.csv(?![^?#])", translated)

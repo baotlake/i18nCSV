@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Salut Lume",
+    "description": "Nume extensie"
+  },
+  "ext_description": {
+    "message": "Un instrument i18n multiplatform super ușor de utilizat pentru gestionarea eficientă a fișierelor i18n într-o interfață de utilizare de tabel.",
+    "description": "Descrierea extensiei"
+  }
+}

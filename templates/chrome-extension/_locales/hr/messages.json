@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Zdravo svijete",
+    "description": "Naziv proširenja"
+  },
+  "ext_description": {
+    "message": "I18n alat za više platformi koji je super jednostavan za korištenje za učinkovito upravljanje vašim i18n datotekama u korisničkom sučelju tablice.",
+    "description": "Opis proširenja"
+  }
+}

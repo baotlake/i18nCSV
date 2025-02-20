@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Sveika pasaule",
+    "description": "Paplašinājuma nosaukums"
+  },
+  "ext_description": {
+    "message": "Īpaši viegli lietojams starpplatformu i18n rīks efektīvai i18n failu pārvaldībai tabulas lietotāja saskarnē.",
+    "description": "Paplašinājuma apraksts"
+  }
+}

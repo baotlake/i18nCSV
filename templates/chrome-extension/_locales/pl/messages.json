@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Witaj świecie",
+    "description": "Nazwa rozszerzenia"
+  },
+  "ext_description": {
+    "message": "Bardzo łatwe w użyciu, wieloplatformowe narzędzie i18n do wydajnego zarządzania plikami i18n w interfejsie tabeli.",
+    "description": "Opis rozszerzenia"
+  }
+}

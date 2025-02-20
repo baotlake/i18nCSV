@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Selam Dünya",
+    "description": "Uzantı Adı"
+  },
+  "ext_description": {
+    "message": "i18n dosyalarınızı bir tablo kullanıcı arayüzünde verimli bir şekilde yönetmek için kullanımı son derece kolay, platformlar arası bir i18n aracı.",
+    "description": "Uzantı Açıklaması"
+  }
+}

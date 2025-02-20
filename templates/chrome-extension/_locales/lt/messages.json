@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Sveikas pasaulis",
+    "description": "Plėtinio pavadinimas"
+  },
+  "ext_description": {
+    "message": "Itin paprastas naudoti kelių platformų i18n įrankis, skirtas efektyviai valdyti i18n failus lentelės vartotojo sąsajoje.",
+    "description": "Plėtinio aprašymas"
+  }
+}

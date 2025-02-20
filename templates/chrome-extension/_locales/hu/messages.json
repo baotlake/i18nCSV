@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Hello World",
+    "description": "Bővítmény neve"
+  },
+  "ext_description": {
+    "message": "Egy rendkívül egyszerűen használható, többplatformos i18n eszköz az i18n-fájlok hatékony kezeléséhez táblázatos felhasználói felületen.",
+    "description": "Kiterjesztés leírása"
+  }
+}

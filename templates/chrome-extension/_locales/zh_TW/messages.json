@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "你好世界",
+    "description": "分機名稱"
+  },
+  "ext_description": {
+    "message": "一個超級易於使用的跨平台 i18n 工具，用於在表格 UI 中有效管理您的 i18n 檔案。",
+    "description": "擴充說明"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Halo Dunia",
+    "description": "Nama Ekstensi"
+  },
+  "ext_description": {
+    "message": "Alat i18n lintas platform yang sangat mudah digunakan untuk mengelola file i18n Anda secara efisien di UI tabel.",
+    "description": "Deskripsi Ekstensi"
+  }
+}

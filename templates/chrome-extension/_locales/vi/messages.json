@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Xin chào thế giới",
+    "description": "Tên tiện ích mở rộng"
+  },
+  "ext_description": {
+    "message": "Một công cụ i18n đa nền tảng siêu dễ sử dụng để quản lý hiệu quả các tệp i18n của bạn trong giao diện người dùng bảng.",
+    "description": "Mô tả tiện ích mở rộng"
+  }
+}

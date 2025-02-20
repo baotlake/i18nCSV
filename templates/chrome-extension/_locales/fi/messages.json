@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Hei maailma",
+    "description": "Laajennuksen nimi"
+  },
+  "ext_description": {
+    "message": "Erittäin helppokäyttöinen cross-platform i18n-työkalu i18n-tiedostojen tehokkaaseen hallintaan taulukkokäyttöliittymässä.",
+    "description": "Laajennuksen kuvaus"
+  }
+}

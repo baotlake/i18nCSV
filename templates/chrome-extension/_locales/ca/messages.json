@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Hola món",
+    "description": "Nom de l'extensió"
+  },
+  "ext_description": {
+    "message": "Una eina i18n multiplataforma molt fàcil d'utilitzar per gestionar de manera eficient els fitxers i18n en una interfície d'usuari de taula.",
+    "description": "Descripció de l'extensió"
+  }
+}

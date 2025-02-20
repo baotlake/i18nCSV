@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Tere Maailm",
+    "description": "Laienduse nimi"
+  },
+  "ext_description": {
+    "message": "Väga lihtsalt kasutatav platvormideülene i18n-tööriist i18n-failide tõhusaks haldamiseks tabeli kasutajaliideses.",
+    "description": "Laienduse kirjeldus"
+  }
+}

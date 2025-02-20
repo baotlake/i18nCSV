@@ -1,0 +1,10 @@
+{
+  "ext_name": {
+    "message": "Ahoj svet",
+    "description": "Názov rozšírenia"
+  },
+  "ext_description": {
+    "message": "Veľmi jednoducho použiteľný multiplatformový nástroj i18n na efektívnu správu súborov i18n v používateľskom rozhraní tabuľky.",
+    "description": "Popis rozšírenia"
+  }
+}
